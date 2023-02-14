@@ -43,8 +43,8 @@ We recommend using ProBuilder, which we use internally for quick prototyping of 
 
 To export your map, click on `Menu bar > Govigedit > Export map` or press <kbd>Ctrl</kbd> + <kbd>F8</kbd>. 
 
-## Further reading
+## Further things to look into
 
-* [Adding DAVIGO objects](toolset/asset-browser)
+* [Adding DAVIGO objects](toolset/editor-windows/asset-browser)
 * Using ProBuilder
-* 
+* [Checking your map for issues](toolset/editor-windows/map-issues)

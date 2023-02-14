@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Davigo-Studio/govigedit-docs/tree/master/docs/',
+            'https://github.com/Davigo-Studio/govigedit-docs-new/tree/master/',
         },
         blog: false,
         theme: {
@@ -63,10 +63,15 @@ const config = {
         // },
         items: [
           {
+            href: 'https://discord.gg/davigo',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
             href: 'https://davigo.page.link/govigedit-latest',
             label: 'Govigedit Package',
             position: 'right',
-          },
+          }
         ],
       },
       footer: {

@@ -1,6 +1,15 @@
+---
+sidebar_position: 1
+---
+
 # Govigedit Toolset
 
 import { UnityAsset } from "@site/src/components/UnityAsset";
+
+:::info
+This page is meant to provide a brief overview of what every component does. 
+For more info, add the component to a script and hover over the various fields to see what they do. 
+:::
 
 ## Required
 
@@ -17,6 +26,46 @@ If you are making your own Killzone from scratch, make sure there are no leaks i
 ### <UnityAsset iconType="script">Map Settings Component (Required)</UnityAsset>
 
 This is used for configuring data about your map. For example, map name, author, description and preview image.
+
+## DAVIGO objects
+
+### <UnityAsset iconType="prefab">Cannon</UnityAsset>
+
+Shoots the specified prefab (by default, a [cannonball](#cannonball)) at the Giant upon being triggered by the [Button](#trigger-button).
+
+### <UnityAsset iconType="prefab">Cannonball</UnityAsset>
+
+Is shot by the cannon. Explodes on contact with any surface. 
+
+### <UnityAsset iconType="prefab">Trigger Button</UnityAsset>
+
+Triggers triggerables. For example, the [cannon](#cannon) and [moving platform](#moving-platform).
+
+Can be configured to be only triggerable by the warrior, the warrior's ragdoll, the giant, any rigidbody, or a combination of any of these. 
+
+### <UnityAsset iconType="prefab">Bird</UnityAsset>
+
+Flys in the specified random direction when either a warrior walks into its trigger, or the rigidbody it's perched on moves.
+
+### <UnityAsset iconType="prefab">Block</UnityAsset>
+
+A destructible rock. Has 2 health. 
+
+### <UnityAsset iconType="prefab">Block Shard</UnityAsset>
+
+A variant of the [block](#block), with only 1 health. 
+
+### <UnityAsset iconType="prefab">Block Wall</UnityAsset>
+
+A variant of the [block](#block), which is embedded in a wall. Can be pulled out by the Giant, and/or destroyed by the warrior.
+
+### <UnityAsset iconType="prefab">Tree</UnityAsset>
+
+A tree fixed in place. can be pulled out of its "roots" by the Giant, and/or destroyed by the warrior. 
+
+### <UnityAsset iconType="prefab">Tree (Short Trunk)</UnityAsset>
+
+a variant of the [tree](#tree) with a shorter trunk, to avoid the trunk poking out the bottom of thin floors.
 
 ## Other
 
@@ -39,7 +88,7 @@ An example can be found in Govigedit_Kairos.
 Add this component to any rigidbody in order to sync it over the network. Required for all rigidbodies.
 
 :::note
-It is not recommended to create rigidbodies manually, instead, use the [interactable object builder] TODO: Link.
+It is not recommended to create rigidbodies manually, instead, use the [interactable object builder](/toolset/editor-windows/object-builder).
 :::
 
 ### <UnityAsset iconType="script">Multi Audio Source</UnityAsset>
@@ -63,3 +112,22 @@ This will be triggered either when Destructible Object is triggered and it has D
 
 This changes the footstep audio and collision sounds to whatever ScriptableObject is put into Data. Grass and Rock are included by default. 
 To create your own, right click somewhere in the project window, and go to `Create/Physics/Physics Material Data` and assign your own footstep sounds and collision sounds.
+
+### <UnityAsset iconType="script">Trigger Push</UnityAsset>
+
+This will add the force specified to any physics object that enters over every second. 
+Note that this is additive. 
+There are also overrides for warriors, and warriors who are not on the ground (referred to as jumping warriors). 
+
+### <UnityAsset iconType="script">Quality Levels Group</UnityAsset>
+
+This is used to show different art depending on whether a user is on Quest 1, Quest 2 or PC for per device optimization. 
+
+### <UnityAsset iconType="script">Owner</UnityAsset>
+
+This will be used with the scoreboard to mark who damaged who and with how much damage. 
+This is automatically added by the [interactable object builder](/toolset/editor-windows/object-builder). 
+
+### <UnityAsset iconType="script">Moving Platform</UnityAsset>
+
+Moves from point to point over the time specified in the point. Can be triggered.

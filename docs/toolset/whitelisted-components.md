@@ -1,4 +1,10 @@
+---
+sidebar_position: 2
+---
+
 # Whitelisted Components
+
+If you want a component or asset supported, please tell us via our discord server!
 
 ## Unity Components
 

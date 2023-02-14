@@ -1,6 +1,6 @@
-# Joints
+# Joints (By #ŠpaceChickn#0012)
 
-By ŠpaceChickn#0012
+
 
 ## Different Joint Types
 
