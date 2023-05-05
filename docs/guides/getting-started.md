@@ -29,9 +29,7 @@ Once that project has loaded, download the [latest Govigedit package](https://da
 
 ## Step 2 - Creating a new map
 
-We'll want to create a new scene in the project panel, name it something fun (BirdSanctuary for example) and open it.
-
-You should get a message about importing a scene template. This will add all required prefabs, and applies some lighting defaults. If you closed this, you can always bring it up via `Menu bar > Govigedit > Import Scene Template`. 
+We'll want to create a new scene via File > New Scene (Ctrl + N), and select the "Base Govigedit Map" template. Save the map somewhere with a fun name (BirdSanctuary for example) and open it. 
 
 Your hierarchy should now look like the following:
 

@@ -39,13 +39,13 @@ Is shot by the cannon. Explodes on contact with any surface.
 
 ### <UnityAsset iconType="prefab">Trigger Button</UnityAsset>
 
-Triggers triggerables. For example, the [cannon](#cannon) and [moving platform](#moving-platform).
+Triggers triggerables. Currently only the [cannon](#cannon) and [moving platform](#moving-platform).
 
-Can be configured to be only triggerable by the warrior, the warrior's ragdoll, the giant, any rigidbody, or a combination of any of these. 
+Can be configured to be triggerable by the warrior, the warrior's ragdoll, the giant, any rigidbody, an object with a specific or a combination of any of these. 
 
 ### <UnityAsset iconType="prefab">Bird</UnityAsset>
 
-Flys in the specified random direction when either a warrior walks into its trigger, or the rigidbody it's perched on moves.
+Flies in the specified random direction when either a warrior walks into its trigger, or the rigidbody it's perched on moves.
 
 ### <UnityAsset iconType="prefab">Block</UnityAsset>
 
@@ -67,7 +67,29 @@ A tree fixed in place. can be pulled out of its "roots" by the Giant, and/or des
 
 a variant of the [tree](#tree) with a shorter trunk, to avoid the trunk poking out the bottom of thin floors.
 
-## Other
+## Rigidbody Components
+
+:::note
+It is not recommended to create rigidbodies manually, instead, use the [interactable object builder](/toolset/editor-windows/object-builder). The below components are added by the object builder, among others. 
+:::
+
+### <UnityAsset iconType="script">Davigo Network Rigidbody</UnityAsset>
+
+Add this component to any rigidbody in order to sync it over the network. Required for all rigidbodies.
+
+### <UnityAsset iconType="script">Owner</UnityAsset>
+
+This will be used with the scoreboard to mark who damaged who and with how much damage.
+
+### <UnityAsset iconType="script">Damageable Object</UnityAsset>
+
+Place this on any object you would like to be able to take damage. Recommended to use alongside the Destructible Object Component. An example can be found on the Rock.
+
+### <UnityAsset iconType="script">Destructible Object</UnityAsset>
+
+Place this component on any object you wish to be able to be destroyed. If Damageable Object is present, this will trigger when it's health reaches zero. Has many options for customisation. An example can be found on the Rock.
+
+## Surface Components
 
 ### <UnityAsset iconType="script">Impactable Component</UnityAsset>
 
@@ -78,55 +100,38 @@ This component will allow the Giant to fissure and shockwave any object it is pu
 This component will apply a dither effect to any object the component is on.
 Only works if the material applied is using a dither shader, e.g. GridGrass.
 
+### <UnityAsset iconType="script">Physics Material</UnityAsset>
+
+This changes the footstep audio and collision sounds to whatever ScriptableObject is put into Data. Grass and Rock are included by default. 
+To create your own, right click somewhere in the project window, and go to `Create/Physics/Physics Material Data` and assign your own footstep sounds and collision sounds.
+
+## Performance Components
+
+### <UnityAsset iconType="script">Quality Levels Group</UnityAsset>
+
+This is used to show different art depending on whether a user is on Quest 1, Quest 2 or PC for per device optimization. 
+
+## Miscellaneous Components
+
 ### <UnityAsset iconType="script">Giant Boundary</UnityAsset>
 
 Place this on a GameObject at 0,0,0 and create points to adjust your boundary to your liking. 
 An example can be found in Govigedit_Kairos.
 
-### <UnityAsset iconType="script">Davigo Network Rigidbody</UnityAsset>
-
-Add this component to any rigidbody in order to sync it over the network. Required for all rigidbodies.
-
-:::note
-It is not recommended to create rigidbodies manually, instead, use the [interactable object builder](/toolset/editor-windows/object-builder).
-:::
-
 ### <UnityAsset iconType="script">Multi Audio Source</UnityAsset>
 
 This can be added to any object to play sounds, as long as you attach an audio file. 
-Meant to replace the Unity AudioSource, which does not support playing to multiple users.
-
-### <UnityAsset iconType="script">Damageable Object</UnityAsset>
-
-Place this on any object you would like to be able to take damage. Recommended to use alongside the Destructible Object Component. An example can be found on the Rock.
-
-### <UnityAsset iconType="script">Destructible Object</UnityAsset>
-
-Place this component on any object you wish to be able to be destroyed. If Damageable Object is present, this will trigger when it’s health reaches zero. Has many options for customisation. An example can be found on the Rock.
+Meant to replace the Unity AudioSource, which does not support playing to multiple devices (VR and PC).
 
 ### <UnityAsset iconType="script">Rigidbody Explosion</UnityAsset>
 
 This will be triggered either when Destructible Object is triggered and it has Detonate On Death checked, or if Detonate On Spawn is checked. 
-
-### <UnityAsset iconType="script">Physics Material</UnityAsset>
-
-This changes the footstep audio and collision sounds to whatever ScriptableObject is put into Data. Grass and Rock are included by default. 
-To create your own, right click somewhere in the project window, and go to `Create/Physics/Physics Material Data` and assign your own footstep sounds and collision sounds.
 
 ### <UnityAsset iconType="script">Trigger Push</UnityAsset>
 
 This will add the force specified to any physics object that enters over every second. 
 Note that this is additive. 
 There are also overrides for warriors, and warriors who are not on the ground (referred to as jumping warriors). 
-
-### <UnityAsset iconType="script">Quality Levels Group</UnityAsset>
-
-This is used to show different art depending on whether a user is on Quest 1, Quest 2 or PC for per device optimization. 
-
-### <UnityAsset iconType="script">Owner</UnityAsset>
-
-This will be used with the scoreboard to mark who damaged who and with how much damage. 
-This is automatically added by the [interactable object builder](/toolset/editor-windows/object-builder). 
 
 ### <UnityAsset iconType="script">Moving Platform</UnityAsset>
 

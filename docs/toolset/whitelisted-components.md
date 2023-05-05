@@ -11,7 +11,7 @@ If you want a component or asset supported, please tell us via our discord serve
 * ParticleSystem
 * ParticleSystemRenderer
 * ParticleSystemForceField
-* TextMeshPro
+* TextMeshPro (World space text)
 * Transform
 * Animator
 * Collider
@@ -20,7 +20,6 @@ If you want a component or asset supported, please tell us via our discord serve
 * MeshCollider
 * CapsuleCollider
 * Rigidbody
-* ConfigurableJoint
 * Camera
 * SkinnedMeshRenderer
 * MeshRenderer
@@ -33,6 +32,12 @@ If you want a component or asset supported, please tell us via our discord serve
 * OcclusionArea
 * LensFlare
 * Skybox
+* Joint
+* HingeJoint
+* FixedJoint
+* SpringJoint
+* CharacterJoint
+* ConfigurableJoint
 
 ## Fusion Components
 
@@ -53,7 +58,7 @@ If you want a component or asset supported, please tell us via our discord serve
 * TriggerButton
 * MultiAudioSource
 * RandomAudioClip
-* MultipleAudioClips
+* NetworkStateMachine
 * Damageable
 * DamageableObject
 * DestructibleObject
@@ -101,6 +106,9 @@ If you want a component or asset supported, please tell us via our discord serve
 * TimeframeObject
 * GiantHandStartPositions
 * Owner
+* MultipleAudioClips
+* ParryableBody
+* GiantWarpPoint
 
 ## [Bakery Components](https://assetstore.unity.com/packages/tools/level-design/bakery-gpu-lightmapper-122218)
 
