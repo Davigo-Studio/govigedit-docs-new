@@ -4,7 +4,7 @@ This allows you to easily create full, networked physics objects quickly and eas
 
 ## Opening the object builder
 
-Opening the asset browser is done by going to `Menu bar > Govigedit > Interactable Builder`.
+Opening the builder is done by going to `Menu bar > Govigedit > Interactable Builder`.
 
 ## Using the object builder
 
