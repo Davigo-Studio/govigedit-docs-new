@@ -35,6 +35,8 @@ Your hierarchy should now look like the following:
 
 ![Hierarchy showing the game objects WarriorStartPosition, GiantStartPosition, Killzone, MapSettings and finally Directional Light](/img/gettingstarted/templatehierarchy.png)
 
+All of these should be explained within the [toolset](toolset/components). 
+
 At this point, everything should be set up to design and build your level. 
 
 We recommend using ProBuilder, which we use internally for quick prototyping of levels. It is bundled with Govigedit. 
