@@ -17,7 +17,7 @@ Once you've downloaded and installed Unity Hub, you'll then need to grab [Unity 
 Make sure you're using this *exact* version, as other versions of Unity are not compatiable. 
 Make sure to also install **Android Build Support** along side it, as it is needed for Quest support.
 
-If you don't want to use Unity Hub, you can also grab Unity from [the Unity download archive](https://unity3d.com/get-unity/download/archive).
+If you don't want to use Unity Hub, you can also grab Unity from [the Unity download archive](https://unity3d.com/get-unity/download/archive), however we do not provide support for this method. 
 
 ## Step 1 - Setting up a new project
 
