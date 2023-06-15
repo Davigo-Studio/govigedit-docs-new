@@ -45,6 +45,7 @@ To export your map, click on `Menu bar > Govigedit > Export map` or press <kbd>C
 
 ## Further things to look into
 
+* [The full Govigedit toolset](/toolset/components)
 * [Adding DAVIGO objects](/toolset/editor-windows/asset-browser)
 * Using ProBuilder
 * [Checking your map for issues](/toolset/editor-windows/map-issues)
