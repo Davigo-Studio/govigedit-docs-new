@@ -68,6 +68,11 @@ const config = {
             position: 'right',
           },
           {
+            href: 'https://davigo.page.link/govigedit-uploader-latest',
+            label: 'Map Uploader',
+            position: 'right',
+          },
+          {
             href: 'https://davigo.page.link/govigedit-latest',
             label: 'Govigedit Package',
             position: 'right',
