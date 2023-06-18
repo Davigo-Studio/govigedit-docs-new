@@ -21,7 +21,7 @@ const config = {
   projectName: 'govigedit-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,10 +37,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          id: 'govigedit',
+          path: 'govigedit',
+          routeBasePath: 'govigedit',
+          sidebarPath: require.resolve('./govigedit/sidebars.js'),
           editUrl:
             'https://github.com/Davigo-Studio/govigedit-docs-new/tree/master/',
         },
@@ -52,16 +52,38 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'wiki',
+        path: 'wiki',
+        routeBasePath: 'wiki',
+        sidebarPath: require.resolve('./wiki/sidebars.js'),
+      }
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Govigedit',
+        title: 'DAVIGO',
         // logo: {
         //   alt: 'Logo',
         //   src: 'img/logo.svg',
         // },
         items: [
+          {
+            href: '/govigedit',
+            label: 'Govigedit',
+            position: 'left',
+          },
+          {
+            href: '/wiki',
+            label: 'Wiki',
+            position: 'left',
+          },
           {
             href: 'https://discord.gg/davigo',
             label: 'Discord',

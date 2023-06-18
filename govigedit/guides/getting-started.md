@@ -35,7 +35,7 @@ Your hierarchy should now look like the following:
 
 ![Hierarchy showing the game objects WarriorStartPosition, GiantStartPosition, Killzone, MapSettings and finally Directional Light](/img/gettingstarted/templatehierarchy.png)
 
-All of these should be explained within the [toolset](/toolset/components). 
+All of these should be explained within the [toolset](/govigedit/toolset/components). 
 
 At this point, everything should be set up to design and build your level. 
 
@@ -45,7 +45,7 @@ To export your map, click on `Menu bar > Govigedit > Export map` or press <kbd>C
 
 ## Further things to look into
 
-* [The full Govigedit toolset](/toolset/components)
-* [Adding DAVIGO objects](/toolset/editor-windows/asset-browser)
+* [The full Govigedit toolset](/govigedit/toolset/components)
+* [Adding DAVIGO objects](/govigedit/toolset/editor-windows/asset-browser)
 * Using ProBuilder
-* [Checking your map for issues](/toolset/editor-windows/map-issues)
+* [Checking your map for issues](/govigedit/toolset/editor-windows/map-issues)

@@ -21,7 +21,7 @@ You can use Oculus' OVR Metrics tool to show your frame-rate in Quest 2 overlaid
 
 You can get it here: https://developer.oculus.com/downloads/package/ovr-metrics-tool/
 
-In the [Map issues](/toolset/editor-windows/map-issues) window, you can see how many triangles your map has in total, as well as how many renderers your map has.
+In the [Map issues](/govigedit/toolset/editor-windows/map-issues) window, you can see how many triangles your map has in total, as well as how many renderers your map has.
 
 ## What impacts performance the most?
 These suggestions are ordered from easiest to implement, to more complex to implement.
