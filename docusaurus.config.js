@@ -90,12 +90,12 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://davigo.page.link/govigedit-uploader-latest',
+            href: 'https://davigogame.com/govigedit-uploader-latest',
             label: 'Map Uploader',
             position: 'right',
           },
           {
-            href: 'https://davigo.page.link/govigedit-latest',
+            href: 'https://davigogame.com/govigedit-package-latest',
             label: 'Govigedit Package',
             position: 'right',
           }
