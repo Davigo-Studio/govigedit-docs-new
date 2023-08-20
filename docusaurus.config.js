@@ -18,7 +18,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Davigo-Studio', // Usually your GitHub org/user name.
-  projectName: 'govigedit-docs', // Usually your repo name.
+  projectName: 'govigedit-docs-new', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
