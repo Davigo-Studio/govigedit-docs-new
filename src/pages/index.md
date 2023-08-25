@@ -4,4 +4,4 @@ DAVIGO is a VR vs. PC battle game. The VR player embodies a giant and faces off 
 
 For information on the game, [click the wiki tab above.](/wiki/)
 
-For information on the custom map editor, [click the Govigedit tab above.](/govigedit/)
+For information on the custom map editor, [click the DAVIGO Map Editor tab above.](/govigedit/)

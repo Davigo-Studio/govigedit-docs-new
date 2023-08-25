@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Updating Govigedit
+# Updating
 
-For now, updating Govigedit is slightly more involved than simply overwriting the existing package. 
+For now, updating the map editor is slightly more involved than simply overwriting the existing package. 
 
 ## General updating steps
 
@@ -16,7 +16,7 @@ For now, updating Govigedit is slightly more involved than simply overwriting th
 
 2. Import the new package. 
 
-## Updating to 2.x.x from Govigedit 9 and below
+## Updating to 2.x.x from DAVIGO Map Editor 9 and below
 
 * On any custom rigidbodies, add the `Owner` and `ParryableBody` component. 
 * If you have changed any cannon settings, you will need to re-enter any changes into the new setup, and you'll also probably want to enable ignoreMixerCannonValues and ignoreMixerExplosionValues. 

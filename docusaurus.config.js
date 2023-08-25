@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Govigedit',
+  title: 'DAVIGO Map Editor',
   //favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
         items: [
           {
             href: '/govigedit',
-            label: 'Govigedit',
+            label: 'DAVIGO Map Editor',
             position: 'left',
           },
           {
@@ -96,7 +96,7 @@ const config = {
           },
           {
             href: 'https://davigogame.com/govigedit-package-latest',
-            label: 'Govigedit Package',
+            label: 'Map Editor Package',
             position: 'right',
           }
         ],

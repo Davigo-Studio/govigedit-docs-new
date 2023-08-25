@@ -1,4 +1,4 @@
-# Welcome to the Govigedit Docs repo!
+# Welcome to the DAVIGO Map Editor Docs repo!
 
 ## Contributing
 

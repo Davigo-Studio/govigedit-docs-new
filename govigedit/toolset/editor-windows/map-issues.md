@@ -6,4 +6,4 @@ It will also show you how many tris your map is, how many renderers your map has
 
 ## Opening the map issues window
 
-This window can be accessed by going to `Menu bar > Govigedit > Map Issues`, or press <kbd>Ctrl</kbd> + <kbd>F6</kbd>.
+This window can be accessed by going to `Menu bar > DAVIGO Map Editor > Map Issues`, or press <kbd>Ctrl</kbd> + <kbd>F6</kbd>.
