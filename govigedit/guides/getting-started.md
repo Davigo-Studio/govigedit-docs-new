@@ -14,15 +14,15 @@ The easiest (and recommended) way to install Unity is via the Unity Hub.
 It can be downloaded and installed from [here](https://unity3d.com/get-unity/download/archive).
 
 Once you've downloaded and installed Unity Hub, you'll then need to grab [Unity 2020.3.48](unityhub://2020.3.48f1/b805b124c6b7). 
-Make sure you're using this *exact* version, as other versions of Unity are not compatiable. 
-Make sure to also install **Android Build Support** along side it, as it is needed for Quest support.
+Make sure you're using this *exact* version, as other versions of Unity are not compatible. 
+Make sure to also install **Android Build Support** alongside it, as it is needed for Quest support.
 
 If you don't want to use Unity Hub, you can also grab Unity from [the Unity download archive](https://unity3d.com/get-unity/download/archive), however we do not provide support for this method. 
 
 ## Step 1 - Setting up a new project
 
 Assuming you used Unity hub, fire it up and create a new, empty 3D project, and give the project a good name and location. 
-Make sure you're using the 3D template, not URP or HDRP. (We only support the built-in render pipeline)
+Make sure you're using the 3D template, not URP or HDRP. (We only support the built-in render pipeline.)
 
 Once that project has loaded, download the [latest DAVIGO Map Editor package](https://davigo.page.link/govigedit-latest)
 (if you haven't already), and import it either by double-clicking on it in File Explorer, importing it via `Assets > Import Package > Custom Package`, or dragging the package onto the Hierarchy. 
