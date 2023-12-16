@@ -24,7 +24,7 @@ If you don't want to use Unity Hub, you can also grab Unity from [the Unity down
 Assuming you used Unity hub, fire it up and create a new, empty 3D project, and give the project a good name and location. 
 Make sure you're using the 3D template, not URP or HDRP. (We only support the built-in render pipeline.)
 
-Once that project has loaded, download the [latest DAVIGO Map Editor package](https://davigo.page.link/govigedit-latest)
+Once that project has loaded, download the [latest DAVIGO Map Editor package](https://davigogame.com/govigedit-package-latest)
 (if you haven't already), and import it either by double-clicking on it in File Explorer, importing it via `Assets > Import Package > Custom Package`, or dragging the package onto the Hierarchy. 
 
 ## Step 2 - Creating a new map
