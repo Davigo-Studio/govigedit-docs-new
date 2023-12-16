@@ -11,7 +11,7 @@ The [Using the Unity Interface](https://learn.unity.com/tutorial/using-the-unity
 ## Step 0 - Installing Unity
 
 The easiest (and recommended) way to install Unity is via the Unity Hub. 
-It can be downloaded and installed from [here](https://unity3d.com/get-unity/download/archive).
+It can be downloaded and installed from [here](https://unity.com/download).
 
 Once you've downloaded and installed Unity Hub, you'll then need to grab [Unity 2020.3.48](unityhub://2020.3.48f1/b805b124c6b7). 
 Make sure you're using this *exact* version, as other versions of Unity are not compatible. 
