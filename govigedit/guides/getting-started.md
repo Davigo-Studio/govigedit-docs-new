@@ -39,9 +39,9 @@ We recommend using ProBuilder, which we use internally for quick prototyping of 
 
 To export your map, click on `Menu bar > DAVIGO Map Editor > Export map` or press <kbd>Ctrl</kbd> + <kbd>F8</kbd>. 
 
-## Further things to look into
+## I would highly recommend checking out these pages!
 
-* [The full DAVIGO Map Editor toolset](/govigedit/toolset/components)
 * [Adding DAVIGO objects](/govigedit/toolset/editor-windows/asset-browser)
-* Using ProBuilder
 * [Checking your map for issues](/govigedit/toolset/editor-windows/map-issues)
+* Using ProBuilder
+* [The full DAVIGO Map Editor toolset](/govigedit/toolset/components)
