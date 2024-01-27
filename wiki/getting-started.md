@@ -14,7 +14,7 @@ You can alternatively play using the free KNIGHT'S PASS, which is on [Steam](htt
 
 1. Get your map(s) from wherever
 
-2. Place them in the `Documents\Davigo\OnlineMaps` directory
+2. Place them in the `%localappdata%\Davigo\OnlineMaps` directory
 
 3. Open an online lobby, and find the map in the custom maps section.
 
