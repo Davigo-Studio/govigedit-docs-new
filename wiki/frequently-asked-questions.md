@@ -1,4 +1,4 @@
-# Getting Started
+# Frequently Asked Questions (FAQ)
 
 This is the beginner guide, made in the hopes that everyone having common problems might find solutions. This will start from the bare basics.
 
@@ -34,10 +34,8 @@ The game currently supports all SteamVR supported headsets.
 
 This behaviour is intentional! It ensures that the giant cannot overwhelm the warrior with too much speed, and requires wind-ups for ground pounds and throws.
 
-## The giant/warrior is too strong compared to the warrior/giant.
+## My name has a "Relay" label next to it in game. What does this mean?
 
-There's definitely imbalances right now, and the imbalances tend to shift along the skill curves. We've found balance goes back and forth when we add new features (e.g., room scale maps that allow the giant to walk around make them much stronger).
+When a Knight connects to a Giant's room, it will attempt to make a _direct_ connection between the two devices for best ping. In the modern world, nearly even device is connected to a router of some sort (through WiFi or a cable) rather than being plugged directly into your home's internet port. This makes forming a direction connection between two devices on the internet a bit challenging.
 
-## My play space is super small, so it's tough to move as the giant without hitting things in my area
-
-This is a pretty common issue for people with smaller play spaces, and is something we are currently experimenting with a solution for.
+The technique to circumvent this is called [NAT punchthrough or Hole punching](https://stackoverflow.com/a/43182457), and it usually works, allowing a direct (low-ping) connection. When it fails, Davigo would fall back on a central server to relay messages between players, resulting in much higher ping. Users without a direct connection will have a small "relay" alert next to their name in the lobby, and will usually have **much** higher ping, so it is not ideal.
